@@ -2,8 +2,6 @@ Run following code in R console:
 
     shiny::runGitHub("szwd_mapmaker_simple", "0zg", host ="0.0.0.0", port =1234)
 
-**Main URL demo**: https://szwd.nl/self/mapmaker <br>
-
 *Current Version*: 0.1.2
 
 # mapmaker_simple : upload csv, show map
