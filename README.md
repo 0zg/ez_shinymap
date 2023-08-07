@@ -23,11 +23,11 @@ First, download and install R:
 Second, install required R packages:
 
     # set package repository to R 4.2.2 snapshot
-    setRepositories(addURLs = c(MRAN_R422= "https://cran.microsoft.com/snapshot/2022-11-01/" ),ind=0)
+    setRepositories(addURLs = c(MRAN_R422="https://packagemanager.posit.co/cran/2022-11-01"),ind=0)
     
     # create package list
     packages <- c( "htmlwidgets","DT","shiny","leaflet","dplyr" )
-
+    
     # create already installed package list, and install new packages
     installed_packages <- packages %in% rownames(installed.packages())
     if (any(installed_packages == FALSE)) {
